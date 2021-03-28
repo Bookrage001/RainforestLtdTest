@@ -3,7 +3,6 @@ body{
   font-family: Verdana
 }
 #GreyBox{
-  height: 1000px;
   width: 200px;
   background-color: #252830;
   position: fixed;
@@ -12,13 +11,11 @@ body{
 #Box2{
   height: 2000px;
   width: 1200px;
-  background-color:  #EEF4F4;
+  background-color:  #EEF4F4;5
   position: static;
   float: left;
 }
 
-#Intro{
-}
 
 .Def{
   background-color: #252830;
@@ -27,4 +24,16 @@ body{
   border-left-color: transparent;
   border-right-color: transparent;
   border-top-color: transparent;
+}
+
+.right {
+  position: right;
+  color: red;
+}
+
+.left-column {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
 }
