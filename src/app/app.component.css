@@ -1,0 +1,30 @@
+body{
+  color: #505659;
+  font-family: Verdana
+}
+#GreyBox{
+  height: 1000px;
+  width: 200px;
+  background-color: #252830;
+  position: fixed;
+  font-size: 150%;
+}
+#Box2{
+  height: 2000px;
+  width: 1200px;
+  background-color:  #EEF4F4;
+  position: static;
+  float: left;
+}
+
+#Intro{
+}
+
+.Def{
+  background-color: #252830;
+  color: #505659;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
